@@ -1,10 +1,10 @@
 ---
-0: '﻿# 基本信息。'
+0: '# 基本信息。'
 name: ldap
 code: ldap
 type: extension
 copyright: Xue Liangliang
-author: Xue Liangliang
+author: Xue Liangliang,Lytsing Huang
 abstract: LDAP 认证
 desc: >
   AD, LDAP 的认证， 从mantis 的LDAP
@@ -14,7 +14,7 @@ desc: >
   其他人可以帮忙测一下。
 install: >
   1.
-  直接在网站上下载安装即可。
+  管理员登陆禅道后台—》插件—》本地安装
 releases:
   0.1:
     zentao:
@@ -22,7 +22,7 @@ releases:
       incompatible:
       charge: free
       date: 2013-02-17
-  0.1_Beta:
+  0.2:
     zentao:
       compatible: all
       incompatible:
