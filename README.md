@@ -4,7 +4,8 @@ AD, LDAP 的认证， 从mantis 的LDAP code 扩展剪裁。在win2003+active di
 
 ## 安装文档
 
-管理员登陆禅道后台—》插件—》本地安装
+1. 在右侧导航栏点 **Download ZIP** ，文件默认保存为 `ldap-master.zip`。管理员登陆禅道后台—》插件—》本地安装，选择刚才保存的 `ldap-master.zip`。
+2. 进入系统，编译 `module/user/ext/config/ldap.php`，填写相应的参数。如果配置有问题，查看php 日志 tmp/log/php.xxxxxx.log.php 进行排查调试。
 
 
 ## 修改纪录
