@@ -26,5 +26,6 @@ releases:
     zentao:
       compatible: all
       incompatible:
+      date: 2015-08-07
     depends: null
     conflicts: null

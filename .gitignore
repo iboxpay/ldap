@@ -1,7 +1,7 @@
 # Created by https://www.gitignore.io
 
 ### OSX ###
-#.DS_Store
+.DS_Store
 .AppleDouble
 .LSOverride
 
