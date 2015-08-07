@@ -30,8 +30,9 @@
 define( 'ON', 1 );
 define( 'OFF', 0 );
 
-define( 'ERROR', "E_USER_ERROR" );
+define( 'ERROR', E_USER_ERROR );
 define( 'ERROR_LDAP_SERVER_CONNECT_FAILED', 1401 );
+define( 'ERROR_LDAP_AUTH_FAILED', 1400 );
 
 /**
 * Start define compatible layer
