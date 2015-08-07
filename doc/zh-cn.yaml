@@ -1,0 +1,30 @@
+---
+0: '﻿# 基本信息。'
+name: ldap
+code: ldap
+type: extension
+copyright: Xue Liangliang
+author: Xue Liangliang
+abstract: LDAP 认证
+desc: >
+  AD, LDAP 的认证， 从mantis 的LDAP
+  code 扩展剪裁。只在win2003+active
+  directory 测试过， 其他AD
+  环境公司也没有，
+  其他人可以帮忙测一下。
+install: >
+  1.
+  直接在网站上下载安装即可。
+releases:
+  0.1:
+    zentao:
+      compatible: 5.0,5.1,5.2,5.2.1
+      incompatible:
+      charge: free
+      date: 2013-02-17
+  0.1_Beta:
+    zentao:
+      compatible: all
+      incompatible:
+    depends: null
+    conflicts: null
