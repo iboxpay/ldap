@@ -2,7 +2,7 @@
 
 function identify($account, $password)
 {
-    if(!$account or !$password) return false;
+    if (!$account or !$password) return false;
 
     /* admin account skip  LDAP  Authenticate */
     if ($account == "admin") {

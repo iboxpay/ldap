@@ -3,7 +3,7 @@
 AD, LDAP 的认证， 从mantis 的LDAP code 扩展剪裁。在win2003+active directory 测试过。原地址： http://www.zentao.net/extension-viewext-25.html
 
 
-*注：现在添加的认证只是基于ldap密码验证，需要在禅道系统里面有对应的用户名，否则登陆不成功。*
+*注：现在添加的认证只是基于 LDAP 密码验证，需要在禅道系统里面有对应的用户名，否则登陆不成功。*
 
 ## 安装文档
 
